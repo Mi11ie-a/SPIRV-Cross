@@ -1,6 +1,11 @@
 # Copyright 2016-2021 The Khronos Group Inc.
 # SPDX-License-Identifier: Apache-2.0
 
+bin
+bin-int
+*.vcxproj.filters
+*.vcxproj.user
+
 *.o
 *.d
 *.txt
