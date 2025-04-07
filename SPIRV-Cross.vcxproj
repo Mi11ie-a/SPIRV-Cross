@@ -124,6 +124,11 @@
   <ItemGroup>
     <ClCompile Include="spirv_cross.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\glslang\glslang.vcxproj">
+      <Project>{0D19B900-79F8-379C-8210-C372EE6E9EFD}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

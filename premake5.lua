@@ -18,6 +18,11 @@ project "SPIRV-Cross"
     {
     }
 
+	links
+	{
+		"glslang"
+	}
+
 	filter "system:windows"
 		systemversion "latest"
 		staticruntime "off"
